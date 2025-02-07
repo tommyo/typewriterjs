@@ -17,6 +17,12 @@
     "LICENSE",
     "readme.md"
   ],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./src/core/index.js"
+    }
+  },
   "repository": "git@github.com:tameemsafi/typewriterjs.git",
   "author": "Tameem Safi <tameem@safi.me.uk>",
   "license": "MIT",
